@@ -1,0 +1,18 @@
+.chua img{
+    width: 30%;
+}
+#next, #back{
+    position: fixed;
+    bottom: 70%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+#next:hover, #back:hover{
+    color: red;
+    background-color: antiquewhite;
+    
+}
+.chua #next{
+    left: 28%;
+}

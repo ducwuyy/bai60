@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai1.css">
+    <title>menu</title>
+</head>
+<body>
+    <div class="xuong">
+        <div id="myLinks">
+          <a href="#">HTML</a>
+          <a href="#">CSS</a>
+          <a href="#">JS</a>
+        </div>
+        <button class="icon" onclick="myFunction()">
+          Thiết kế web
+        </button>
+    </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }</script>
+</html>

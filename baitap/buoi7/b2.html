@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="asset/js/buoi7-bai1.js"></script> -->
+    <link rel="stylesheet" href="asset/css/buoi7-bai1.css">
+</head>
+<body>
+    <div id="head">
+        <div class="input">
+            <label for="num">Nhập vào một số:</label>
+            <input id="number" type="text">
+            <button onclick="Check()" class="button">Submit</button>
+        </div>
+
+        <div class="output">
+            <p id="out">&nbsp;</p>
+        </div>
+    </div>
+</body>
+
+<script>
+
+    function Check() {
+        var num = number.value;
+        numCheck(num);
+    }
+
+    function numCheck (x) {
+        if (x % 2 == 0)
+        {
+            document.getElementById("out").innerHTML = x + " là số chẵn!";
+        }
+        else
+        {
+            document.getElementById("out").innerHTML = x + " là số lẻ!";
+        }
+    }
+</script>
+
+</html>

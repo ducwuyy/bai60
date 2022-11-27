@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+    <h1 id="h1">FORM ĐĂNG KÝ</h1>
+    <form action="" onsubmit="return validateForm()" name="frm_dk">
+    <p>Họ <input type="text" id="txt_ho" size="20" required></p>
+    <p>Tên <input type="text" name="txt_ten" size="20" required></p>
+    <p>Ngày sinh: Ngày 
+        <select id="op_ngay" size="1">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        Tháng
+        <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+        </select>
+        Năm
+        <select name="" id="">
+            <option value="">1990</option>
+            <option value="">1991</option>
+        </select>
+    </p>
+    <p>Giới tính:
+        <input type="radio">Nam
+        <input type="radio">Nữ
+    </p>
+    <p>Số điện thoại:
+        <input type="text" name="txt_dienthoai">
+    </p>
+    <p>Sở thích:
+        <input type="checkbox">Đọc sách
+        <input type="checkbox">Xem phim
+        <input type="checkbox">Nghe nhạc
+        <input type="checkbox">Đá bóng
+    </p>
+    <p>Khác:
+       <textarea name="" id="" cols="30" rows="3"></textarea>
+    </p>
+    <div id="button">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+    </form>
+</body>
+<script>
+    function validateForm() {
+        var x;
+        x=document.forms["frm_dk"]["txt_ho"].value;
+        if(x==""){
+            alert("Bạn chưa nhập họ");
+            return false;
+        }
+        x=document.getElementById("txt_ten").value;
+        if(x==""){
+            alert("Bạn chưa nhập tên");
+            return false;
+        }
+        x=document.getElementById("txt_dienthoai").value;
+        if(isNaN(x)||length(x)==0||length(x)>10){
+            alert("Điện thoại phải là số, mời nhập lại");
+            return false;
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,165 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+body {
+    flex-wrap: nowrap;
+}
+
+#header {
+    margin-top: 2%;
+    background-color: #2fa1b3;
+    max-width: 100%;
+}
+
+.text {
+    max-width: 900px;
+    max-height: 40px;
+    margin: 0 auto;
+
+}
+
+button {
+    background-color: #2fa1b3;
+    color: beige;
+    border: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+button:hover {
+    background-color: #298c9b;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: -4px;
+    padding: 4px;
+}
+
+#main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 18 20px;
+    display: block;
+    max-height: 40px;
+}
+
+#main-menu li .text1 {
+    border-left: 1px solid hsla(0, 0%, 100%, .2);
+    padding: 10px 16px;
+    max-width: 100px;
+    max-height: 40px;
+
+}
+
+#main-menu li .text2 {
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 10px;
+    margin-top: 9px;
+    padding: 2px;
+    font-size: 70%;
+    margin-left: 2px;
+}
+
+#main-menu li .text1:hover {
+    background-color: #298c9b;
+    max-width: 100px;
+    max-height: 40px;
+}
+
+#main-menu li .text2:hover {
+    background-color: hsla(0, 0%, 100%, .2);
+}
+
+.text3 {
+    max-width: 600px;
+
+}
+
+.text4:hover {
+    color: #2fa1b3;
+
+}
+
+.text4 {
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #298c9b;
+}
+
+div .text5 img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+div .text5 {
+    max-width: 180px;
+    float: left;
+    margin: 7px;
+}
+
+div .text5 a {
+    color: black;
+}
+
+div .text5 a:hover {
+    color: #298c9b;
+}
+
+
+
+#text8 {
+    float: right;
+    max-width: 350px;
+    margin-right: 20%;
+    list-style: none;
+}
+
+#text8 div {
+    border-bottom: 1px solid #adb5bd;
+}
+
+span {
+    text-align: center;
+    margin-left: 100px;
+}
+
+#text8 li img {
+    max-width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#text8 li a {
+    font-size: 20px;
+    float: right;
+    margin-top: 7px;
+}
+
+#text10 {
+    margin: 0 auto;
+    position: relative;
+}
+
+#wrapper {
+    display: flex;
+    /* width: 100%; */
+}

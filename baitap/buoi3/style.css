@@ -1,0 +1,30 @@
+.a {
+    text-align: center;
+}
+body{
+  right: 800px;
+  width: 800px;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+}
+li .b{
+    color: darkgrey;
+}
+.img{
+    display: inline-block ;
+    width: 610px;
+    height: 450px;
+    padding: 20px ;
+    background-color: rgb(194, 186, 186);
+    text-align: center;
+    color:  rgb(66, 68, 189);
+}
+.lotus{
+    display: inline-block ;
+    width: 700px;
+    height: 480px;
+    padding: 25px ;
+    background-color: rgb(194, 186, 186);
+    text-align: center;
+    color:  rgb(66, 68, 189);
+}
