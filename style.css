@@ -379,6 +379,7 @@ nav #main-menu li:hover a {
     margin-left: 50px;
     width: 500px ;
     height: 600px;
+    border: 0.1px solid white;
     }
     .p-services2{
     color: coral;
